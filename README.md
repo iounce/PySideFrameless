@@ -1,5 +1,115 @@
 # PySideFrameless
+
 A skeleton of frameless desktop application using PySide6.
+
+这是一个使用PySide6实现的基于无边框窗体的桌面应用程序骨架。
+&nbsp; 
+
 Simple and beautiful. 
-Use Python.
-Try it.
+
+它简单而且美观。
+&nbsp; 
+
+Just use Python to create desktop application.
+
+只使用Python就可以创建桌面应用程序。
+&nbsp; 
+
+
+Feel free to try it!
+
+快来试试吧！
+
+# Screenshots
+截图
+
+Multi-theme:
+
+多主题：
+![avatar](./images/main.png)
+&nbsp; 
+
+Multi-language:
+
+多语言
+![avatar](./images/main-en.png)
+
+# Usage
+
+使用方法
+
+1.Install dependency library：
+安装依赖包：
+
+_pip install pyside6_
+
+_pip install qtawesome_
+
+_[The latest library is a little bit different, so fix the version]_
+
+_[最新的库略有不同，所以这里指定了版本]_
+
+_pip install qt_material==2.12_
+&nbsp; 
+
+2.Run the main.py script:
+
+运行main.py脚本
+
+_python main.py_
+
+# Develop
+
+开发
+
+It's not hard to write your own application based on this repo. Just take Windows as an example:
+
+在本仓库的基础上创建自定义的应用程序并不是一件难事，接下来以Windows系统为例：
+
+1.Clone this repo
+
+克隆本仓库
+&nbsp; 
+
+2.Install dependency library(The same as usage)
+
+安装依赖包（和用法里面的一致）
+&nbsp; 
+
+3.Create a new window:
+
+创建一个新的窗体
+&nbsp; 
+
+*Copy a .ui file and rename
+
+*拷贝.ui文件并重命名
+&nbsp; 
+
+*Use designer.exe to redesign the window details
+
+*使用designer.exe重新设计界面细节
+&nbsp; 
+
+*Use pyside6-uic.exe to compile the .ui file and get a .py file, for example:
+
+*使用pyside6-uic.exe编译.ui文件并得到对应的.py文件，譬如：
+
+_pyside6-uic ui_main.ui > ui_main.py_
+&nbsp; 
+
+*Create a new .py file and create a new class derived from QDialog(or others), and then use the ui file above
+
+*创建一个新的.py文件，并新建继承自QDialog（或其他基类）的类，然后在此类中调用上面的ui文件
+&nbsp; 
+
+4.Run the main.py script:
+
+运行main.py脚本：
+
+_python main.py_
+&nbsp; 
+
+You can get the Qt tools, such as _designer.exe and pyside6-uic.exe_, after installing the PySide6 library.
+
+安装PySide6库以后就可以得到Qt工具包，如 _designer.exe和pyside6-uic.exe_。
