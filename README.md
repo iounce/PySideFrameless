@@ -113,3 +113,18 @@ _python main.py_
 You can get the Qt tools, such as _designer.exe and pyside6-uic.exe_, after installing the PySide6 library.
 
 安装PySide6库以后就可以得到Qt工具包，如 _designer.exe和pyside6-uic.exe_。
+
+# Thanks
+致谢
+
+1.pyside6
+
+https://doc.qt.io/qtforpython/index.html
+
+2.qtawesome
+
+https://github.com/spyder-ide/qtawesome
+
+3.qt_material
+
+https://github.com/UN-GCPDS/qt-material
