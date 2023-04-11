@@ -113,8 +113,33 @@ _python main.py_
 You can get the Qt tools, such as _designer.exe and pyside6-uic.exe_, after installing the PySide6 library.
 
 安装PySide6库以后就可以得到Qt工具包，如 _designer.exe和pyside6-uic.exe_。
+<br/>
 
-# Thanks
+# Internationalization
+
+国际化
+
+1.Edit _en_US.ts_ file to add English text
+
+在_en_US.ts_文件中增加新的英文文本内容
+<br/>
+
+2.Edit _zh_CN.ts_ file to add the translated Chinese text
+
+在_zh_CN.ts_文件中增加对应翻译的中文文本内容
+<br/>
+
+3.Compile _en_US.ts_ and _zh_CN.ts_, using _linguist.exe_
+
+使用_linguist.exe_编译_en_US.ts_和_zh_CN.ts_文件
+<br/>
+
+4.Use _en_US.qm_和_zh_CN.qm_, generated after compiling
+
+在程序中使用编译后的_en_US.qm_和_zh_CN.qm_文件即可
+<br/>
+
+# Acknowledgements
 致谢
 
 1.pyside6
