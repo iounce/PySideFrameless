@@ -21,14 +21,14 @@
     <item row="1" column="0" colspan="2">
      <layout class="QHBoxLayout" name="layout_body">
       <item>
-       <widget class="QWidget" name="widget_2" native="true"/>
+       <widget class="QWidget" name="widget_body" native="true"/>
       </item>
      </layout>
     </item>
     <item row="2" column="0" colspan="2">
      <layout class="QHBoxLayout" name="layout_foot">
       <item>
-       <widget class="QWidget" name="widget" native="true">
+       <widget class="QWidget" name="widget_foot" native="true">
         <property name="minimumSize">
          <size>
           <width>0</width>

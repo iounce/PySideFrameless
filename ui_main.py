@@ -31,22 +31,22 @@ class Ui_MainWindow(object):
         self.gridLayout.setObjectName(u"gridLayout")
         self.layout_body = QHBoxLayout()
         self.layout_body.setObjectName(u"layout_body")
-        self.widget_2 = QWidget(self.wid_main)
-        self.widget_2.setObjectName(u"widget_2")
+        self.widget_body = QWidget(self.wid_main)
+        self.widget_body.setObjectName(u"widget_body")
 
-        self.layout_body.addWidget(self.widget_2)
+        self.layout_body.addWidget(self.widget_body)
 
 
         self.gridLayout.addLayout(self.layout_body, 1, 0, 1, 2)
 
         self.layout_foot = QHBoxLayout()
         self.layout_foot.setObjectName(u"layout_foot")
-        self.widget = QWidget(self.wid_main)
-        self.widget.setObjectName(u"widget")
-        self.widget.setMinimumSize(QSize(0, 33))
-        self.widget.setMaximumSize(QSize(16777215, 32))
+        self.widget_foot = QWidget(self.wid_main)
+        self.widget_foot.setObjectName(u"widget_foot")
+        self.widget_foot.setMinimumSize(QSize(0, 33))
+        self.widget_foot.setMaximumSize(QSize(16777215, 32))
 
-        self.layout_foot.addWidget(self.widget)
+        self.layout_foot.addWidget(self.widget_foot)
 
 
         self.gridLayout.addLayout(self.layout_foot, 2, 0, 1, 2)
