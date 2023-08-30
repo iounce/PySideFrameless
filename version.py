@@ -2,9 +2,9 @@
 
 # version information of the application
 class AppVersion:
-    APP_VERSION = '1.0.0'
-    APP_BUILD = '97'
-    APP_BUILD_DATE = '2023-03-11'
+    APP_VERSION = '1.0.1'
+    APP_BUILD = 'b413dc7'
+    APP_BUILD_DATE = '2023-08-30'
 
     @staticmethod
     def get_version():
